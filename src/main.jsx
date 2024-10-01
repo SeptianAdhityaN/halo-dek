@@ -11,24 +11,24 @@ import NewsPage from './pages/news.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/halo-dek/',
     element: <HomePage />,
     errorElement: <ErrorPage />
   },
   {
-    path:'/service',
+    path:'/halo-dek/service',
     element: <ServicePage />,
   },
   {
-    path:'/news',
+    path:'/halo-dek/news',
     element: <NewsPage />,
   },
   {
-    path:'/about',
+    path:'/halo-dek/about',
     element: <AboutPage />,
   },
   {
-    path:'/contact',
+    path:'/halo-dek/contact',
     element: <Contact />,
   },
 ])
