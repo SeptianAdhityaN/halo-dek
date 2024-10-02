@@ -6,7 +6,7 @@ const NewsPage = () => {
   return (
     <div>
       <Navbar />
-      <Banner title="Blog" image="./public/images/background.jpg"></Banner>
+      <Banner title="Blog" image="images/background.jpg"></Banner>
       <div className="flex justify-center items-center flex-col gap-3 h-screen bg-slate-300">
         <h1 className="text-3xl font-bold text-slate-900">News Page</h1>
       </div>
