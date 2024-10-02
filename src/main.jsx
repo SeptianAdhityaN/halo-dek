@@ -18,18 +18,22 @@ const router = createBrowserRouter([
   {
     path:'/halo-dek/service',
     element: <ServicePage />,
+    errorElement: <ErrorPage />
   },
   {
     path:'/halo-dek/news',
     element: <NewsPage />,
+    errorElement: <ErrorPage />
   },
   {
     path:'/halo-dek/about',
     element: <AboutPage />,
+    errorElement: <ErrorPage />
   },
   {
     path:'/halo-dek/contact',
     element: <Contact />,
+    errorElement: <ErrorPage />
   },
 ])
 createRoot(document.getElementById('root')).render(
